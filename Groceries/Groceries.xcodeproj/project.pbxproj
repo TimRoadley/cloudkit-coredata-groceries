@@ -6,7 +6,32 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		220C62A62EA6FAB300ECCD33 /* Groceries Wrist Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 220C62862EA6FAB200ECCD33 /* Groceries Wrist Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
+		220C62932EA6FAB300ECCD33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 229EF3302EA44A3A0076BD44 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 220C62852EA6FAB200ECCD33;
+			remoteInfo = "Groceries Wrist Watch App";
+		};
+		220C629D2EA6FAB300ECCD33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 229EF3302EA44A3A0076BD44 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 220C62852EA6FAB200ECCD33;
+			remoteInfo = "Groceries Wrist Watch App";
+		};
+		220C62A42EA6FAB300ECCD33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 229EF3302EA44A3A0076BD44 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 220C62852EA6FAB200ECCD33;
+			remoteInfo = "Groceries Wrist Watch App";
+		};
 		229EF34D2EA44A3C0076BD44 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 229EF3302EA44A3A0076BD44 /* Project object */;
@@ -23,7 +48,24 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		220C62A72EA6FAB300ECCD33 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				220C62A62EA6FAB300ECCD33 /* Groceries Wrist Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		220C62862EA6FAB200ECCD33 /* Groceries Wrist Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Groceries Wrist Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		220C62922EA6FAB300ECCD33 /* Groceries Wrist Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Groceries Wrist Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		220C629C2EA6FAB300ECCD33 /* Groceries Wrist Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Groceries Wrist Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		229EF3382EA44A3A0076BD44 /* Groceries.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Groceries.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		229EF34C2EA44A3C0076BD44 /* GroceriesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GroceriesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		229EF3562EA44A3C0076BD44 /* GroceriesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GroceriesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -40,6 +82,21 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		220C62872EA6FAB200ECCD33 /* Groceries Wrist Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Groceries Wrist Watch App";
+			sourceTree = "<group>";
+		};
+		220C62952EA6FAB300ECCD33 /* Groceries Wrist Watch AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Groceries Wrist Watch AppTests";
+			sourceTree = "<group>";
+		};
+		220C629F2EA6FAB300ECCD33 /* Groceries Wrist Watch AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Groceries Wrist Watch AppUITests";
+			sourceTree = "<group>";
+		};
 		229EF33A2EA44A3A0076BD44 /* Groceries */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
@@ -61,6 +118,27 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		220C62832EA6FAB200ECCD33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		220C628F2EA6FAB300ECCD33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		220C62992EA6FAB300ECCD33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		229EF3352EA44A3A0076BD44 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -91,6 +169,9 @@
 				229EF33A2EA44A3A0076BD44 /* Groceries */,
 				229EF34F2EA44A3C0076BD44 /* GroceriesTests */,
 				229EF3592EA44A3C0076BD44 /* GroceriesUITests */,
+				220C62872EA6FAB200ECCD33 /* Groceries Wrist Watch App */,
+				220C62952EA6FAB300ECCD33 /* Groceries Wrist Watch AppTests */,
+				220C629F2EA6FAB300ECCD33 /* Groceries Wrist Watch AppUITests */,
 				229EF3392EA44A3A0076BD44 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -101,6 +182,9 @@
 				229EF3382EA44A3A0076BD44 /* Groceries.app */,
 				229EF34C2EA44A3C0076BD44 /* GroceriesTests.xctest */,
 				229EF3562EA44A3C0076BD44 /* GroceriesUITests.xctest */,
+				220C62862EA6FAB200ECCD33 /* Groceries Wrist Watch App.app */,
+				220C62922EA6FAB300ECCD33 /* Groceries Wrist Watch AppTests.xctest */,
+				220C629C2EA6FAB300ECCD33 /* Groceries Wrist Watch AppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -108,6 +192,74 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		220C62852EA6FAB200ECCD33 /* Groceries Wrist Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 220C62AE2EA6FAB300ECCD33 /* Build configuration list for PBXNativeTarget "Groceries Wrist Watch App" */;
+			buildPhases = (
+				220C62822EA6FAB200ECCD33 /* Sources */,
+				220C62832EA6FAB200ECCD33 /* Frameworks */,
+				220C62842EA6FAB200ECCD33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				220C62872EA6FAB200ECCD33 /* Groceries Wrist Watch App */,
+			);
+			name = "Groceries Wrist Watch App";
+			packageProductDependencies = (
+			);
+			productName = "Groceries Wrist Watch App";
+			productReference = 220C62862EA6FAB200ECCD33 /* Groceries Wrist Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		220C62912EA6FAB300ECCD33 /* Groceries Wrist Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 220C62AF2EA6FAB300ECCD33 /* Build configuration list for PBXNativeTarget "Groceries Wrist Watch AppTests" */;
+			buildPhases = (
+				220C628E2EA6FAB300ECCD33 /* Sources */,
+				220C628F2EA6FAB300ECCD33 /* Frameworks */,
+				220C62902EA6FAB300ECCD33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				220C62942EA6FAB300ECCD33 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				220C62952EA6FAB300ECCD33 /* Groceries Wrist Watch AppTests */,
+			);
+			name = "Groceries Wrist Watch AppTests";
+			packageProductDependencies = (
+			);
+			productName = "Groceries Wrist Watch AppTests";
+			productReference = 220C62922EA6FAB300ECCD33 /* Groceries Wrist Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		220C629B2EA6FAB300ECCD33 /* Groceries Wrist Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 220C62B02EA6FAB300ECCD33 /* Build configuration list for PBXNativeTarget "Groceries Wrist Watch AppUITests" */;
+			buildPhases = (
+				220C62982EA6FAB300ECCD33 /* Sources */,
+				220C62992EA6FAB300ECCD33 /* Frameworks */,
+				220C629A2EA6FAB300ECCD33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				220C629E2EA6FAB300ECCD33 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				220C629F2EA6FAB300ECCD33 /* Groceries Wrist Watch AppUITests */,
+			);
+			name = "Groceries Wrist Watch AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "Groceries Wrist Watch AppUITests";
+			productReference = 220C629C2EA6FAB300ECCD33 /* Groceries Wrist Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		229EF3372EA44A3A0076BD44 /* Groceries */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 229EF35F2EA44A3C0076BD44 /* Build configuration list for PBXNativeTarget "Groceries" */;
@@ -115,10 +267,12 @@
 				229EF3342EA44A3A0076BD44 /* Sources */,
 				229EF3352EA44A3A0076BD44 /* Frameworks */,
 				229EF3362EA44A3A0076BD44 /* Resources */,
+				220C62A72EA6FAB300ECCD33 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				220C62A52EA6FAB300ECCD33 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
 				229EF33A2EA44A3A0076BD44 /* Groceries */,
@@ -186,6 +340,17 @@
 				LastSwiftUpdateCheck = 2600;
 				LastUpgradeCheck = 2600;
 				TargetAttributes = {
+					220C62852EA6FAB200ECCD33 = {
+						CreatedOnToolsVersion = 26.0;
+					};
+					220C62912EA6FAB300ECCD33 = {
+						CreatedOnToolsVersion = 26.0;
+						TestTargetID = 220C62852EA6FAB200ECCD33;
+					};
+					220C629B2EA6FAB300ECCD33 = {
+						CreatedOnToolsVersion = 26.0;
+						TestTargetID = 220C62852EA6FAB200ECCD33;
+					};
 					229EF3372EA44A3A0076BD44 = {
 						CreatedOnToolsVersion = 26.0;
 					};
@@ -216,11 +381,35 @@
 				229EF3372EA44A3A0076BD44 /* Groceries */,
 				229EF34B2EA44A3C0076BD44 /* GroceriesTests */,
 				229EF3552EA44A3C0076BD44 /* GroceriesUITests */,
+				220C62852EA6FAB200ECCD33 /* Groceries Wrist Watch App */,
+				220C62912EA6FAB300ECCD33 /* Groceries Wrist Watch AppTests */,
+				220C629B2EA6FAB300ECCD33 /* Groceries Wrist Watch AppUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		220C62842EA6FAB200ECCD33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		220C62902EA6FAB300ECCD33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		220C629A2EA6FAB300ECCD33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		229EF3362EA44A3A0076BD44 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -245,6 +434,27 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		220C62822EA6FAB200ECCD33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		220C628E2EA6FAB300ECCD33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		220C62982EA6FAB300ECCD33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		229EF3342EA44A3A0076BD44 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -269,6 +479,21 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		220C62942EA6FAB300ECCD33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 220C62852EA6FAB200ECCD33 /* Groceries Wrist Watch App */;
+			targetProxy = 220C62932EA6FAB300ECCD33 /* PBXContainerItemProxy */;
+		};
+		220C629E2EA6FAB300ECCD33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 220C62852EA6FAB200ECCD33 /* Groceries Wrist Watch App */;
+			targetProxy = 220C629D2EA6FAB300ECCD33 /* PBXContainerItemProxy */;
+		};
+		220C62A52EA6FAB300ECCD33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 220C62852EA6FAB200ECCD33 /* Groceries Wrist Watch App */;
+			targetProxy = 220C62A42EA6FAB300ECCD33 /* PBXContainerItemProxy */;
+		};
 		229EF34E2EA44A3C0076BD44 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 229EF3372EA44A3A0076BD44 /* Groceries */;
@@ -282,6 +507,162 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		220C62A82EA6FAB300ECCD33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2ZUK6Z94W4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Groceries Wrist";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.roadley.Groceries;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.roadley.Groceries.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Debug;
+		};
+		220C62A92EA6FAB300ECCD33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2ZUK6Z94W4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Groceries Wrist";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.roadley.Groceries;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.roadley.Groceries.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Release;
+		};
+		220C62AA2EA6FAB300ECCD33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2ZUK6Z94W4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.roadley.Groceries-Wrist-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Groceries Wrist Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Groceries Wrist Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Debug;
+		};
+		220C62AB2EA6FAB300ECCD33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2ZUK6Z94W4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.roadley.Groceries-Wrist-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Groceries Wrist Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Groceries Wrist Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Release;
+		};
+		220C62AC2EA6FAB300ECCD33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2ZUK6Z94W4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.roadley.Groceries-Wrist-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Groceries Wrist Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Debug;
+		};
+		220C62AD2EA6FAB300ECCD33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2ZUK6Z94W4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.roadley.Groceries-Wrist-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Groceries Wrist Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Release;
+		};
 		229EF3602EA44A3C0076BD44 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -558,6 +939,33 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		220C62AE2EA6FAB300ECCD33 /* Build configuration list for PBXNativeTarget "Groceries Wrist Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				220C62A82EA6FAB300ECCD33 /* Debug */,
+				220C62A92EA6FAB300ECCD33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		220C62AF2EA6FAB300ECCD33 /* Build configuration list for PBXNativeTarget "Groceries Wrist Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				220C62AA2EA6FAB300ECCD33 /* Debug */,
+				220C62AB2EA6FAB300ECCD33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		220C62B02EA6FAB300ECCD33 /* Build configuration list for PBXNativeTarget "Groceries Wrist Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				220C62AC2EA6FAB300ECCD33 /* Debug */,
+				220C62AD2EA6FAB300ECCD33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		229EF3332EA44A3A0076BD44 /* Build configuration list for PBXProject "Groceries" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
