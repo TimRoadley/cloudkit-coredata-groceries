@@ -1,0 +1,34 @@
+
+# TODO
+shared cloudkit
+watch os
+i18n
+
+
+# NOTES
+
+https://developer.apple.com/documentation/coredata/creating-a-core-data-model-for-cloudkit#Create-a-Data-Model
+https://developer.apple.com/documentation/coredata/setting-up-core-data-with-cloudkit (this also covers multiple local stores for data that isn't required in the cloud)
+
+Core Data Model
+- Use Xcode’s Core Data model editor to define your app’s entities and their attributes, or construct your model in code.
+- For more information, see "Creating a Core Data model" and the articles under "Modeling data."
+
+CloudKit Compatibility Limitations
+- CloudKit doesn’t support all Core Data features. Design a compatible model with the following limitations in mind:
+
+Entities
+- Unique constraints aren’t supported.
+
+Attributes
+- Undefined attribute type isn’t supported.
+- objectID attribute type isn’t supported.
+
+Relationships
+- All relationships must be optional.
+- Due to operation size limitations, CloudKit may not save relationship changes atomically.
+- All relationships must have an inverse, in case the records synchronize out of order.
+- CloudKit doesn’t support the Deny deletion rule.
+
+Configurations
+- Entities in a configuration must not have relationships to entities in another configuration.
